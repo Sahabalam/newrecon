@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "XSS Scanner",
+  "version": "1.0",
+  "description": "Scans for XSS vulnerabilities",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
